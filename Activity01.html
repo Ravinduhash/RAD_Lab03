@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <title>Activity 01</title>
+</head>
+<body>
+    <h1>Practical Session 03 - Activity 01</h1>
+    
+    <div>
+        <h3>Question 01</h3>
+        Text 01: <input type="text" name="str01" id="str1" placeholder="Enter the text 01"><br>
+        Text 02: <input type="text" name="str02" id="str2" placeholder="Enter the text 02"><br><br>
+        <input type="submit" name="submit" onclick="add(document.getElementById('str1').value,document.getElementById('str2').value)">
+    </div>
+    <button onclick="check()">check</button>
+    <div>
+        <h3>Question 02</h3>
+        <div>
+            Text: <input type="text" name="str" id="text" placeholder="Enter string">
+            <h4>Part A</h4>
+            <input type="submit" value="submit" name="submit" onclick="lower(document.getElementById('text').value)">     
+        </div>
+        <div>
+            <h4>Part B</h4>
+            <input type="submit" value="submit" name="submit" onclick="upper(document.getElementById('text').value)">
+        </div>
+        <div>
+            <h4>Part C</h4>
+            <input type="submit" value="submit" name="submit" onclick="slittext(document.getElementById('text').value)">
+        </div>
+    </div>
+
+</body>
+</html>
