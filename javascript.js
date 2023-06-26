@@ -15,6 +15,16 @@ function upper(text){
 }
 
 function splittext(text){
-    var arr = text.split(',')
-    alert(arr);
+    // alert("chekc");
+    var arr = text.split(',');
+    var str = "";
+    for(let i=0; i<arr.length   ; i++){
+        str = str + arr[i]+"\n";
+    }
+    // let text2 = "";
+    // for (let i = 0; i < arr.length; i++) {
+    //     text2 += arr[i] + "\n";
+    // }
+
+    alert(str);
 }
