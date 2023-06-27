@@ -28,3 +28,16 @@ function splittext(text){
 
     alert(str);
 }
+
+function findIndex(text){
+    alert(text.indexOf("Phobia"));
+}
+
+function q1(){
+    alert("true and true :"+ and(true,true) + "\ntrue and false :" + and(true,false) + "\nfalse and false :" + and(false,false))
+}
+
+function and(x,y){
+    return x&&y
+}
+
