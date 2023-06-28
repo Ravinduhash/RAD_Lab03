@@ -104,4 +104,5 @@ function Q4(){
     fruits.set("apple",5);
     fruits.set("banana",3);
     fruits.set("orange",2);
+    alert("The value of banana is "+fruits.get("banana")+"\nThe size of the map is "+fruits.size);
 }
