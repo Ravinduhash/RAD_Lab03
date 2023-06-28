@@ -60,3 +60,48 @@ function q4(){
     }
     
 }
+
+// ------------------------------Activiy 03------------------------------
+function Q1(){
+    const games = ["The Last of Us", "Uncharted", "God of War", "Bloodborne"];
+    alert(games.indexOf("God of War"))
+}
+
+// const data = [["Name","John"],["Age",30],["City","Colombo"]]
+// const person = new Map();
+function createMap(){
+    // alert("check1")
+    const data = [["Name","John"],["Age",30],["City","Colombo"]];
+    // alert(sizeof(data))
+    arrayToMap(data)
+    
+}
+function arrayToMap(map){
+    // alert("check")
+    const person = new Map(map);
+    // Map.set(data)
+    alert("name: "+person.get("Name")+"\nAge: "+person.get("Age")+"\nCity: "+person.get("City"));
+}
+
+function Mapelemetdelete(){
+    // alert("check1")
+    const data = [["Name","John"],["Age",30],["City","Colombo"]];
+    // alert(sizeof(data))
+    deleteAge(data)
+    
+}
+function deleteAge(map){
+    // alert("check")
+    const person = new Map(map);
+    // Map.set(data)
+    alert("Before delete Age the size of Map: "+person.size);
+    person.delete("Age");
+    alert("After delete Age the size of Map: "+person.size);
+}
+
+function Q4(){
+    const fruits = new Map();
+    fruits.set("apple",5);
+    fruits.set("banana",3);
+    fruits.set("orange",2);
+}

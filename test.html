@@ -14,7 +14,14 @@
         <script>
           function add(a,b) {
             var sum = parseInt(a) + parseInt(b);
-            alert(sum);
+            // alert(sum);
+
+            const colors = new Map([["green",100],["red",200],["blue",300]]);
+            // alert(colors.get("red"))
+            colors.set("Yellow",230);
+            colors.delete("red")
+            alert(colors.get("Yellow")+" "+colors.size);
+
         }
     </script>
 </body>
